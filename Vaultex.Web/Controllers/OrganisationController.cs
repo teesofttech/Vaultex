@@ -115,7 +115,7 @@ namespace Vaultex.Web.Controllers
             {
                 message = "No file selected";
                 TempData["responseMsg"] = message;
-                return View();
+                return RedirectToAction("Index");
             }
         }
     }
