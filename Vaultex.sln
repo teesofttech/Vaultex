@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaultex.Web", "Vaultex.Web\Vaultex.Web.csproj", "{D619C4BC-7B0C-4CDC-86DF-D2A8FBCEE164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaultex.Application", "Vaultex.Application\Vaultex.Application.csproj", "{E863D28E-C257-4DA5-961E-FC191F28F808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaultex.Domain", "Vaultex.Domain\Vaultex.Domain.csproj", "{987A95E1-717A-4F10-8E19-EA5A8E884BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaultex.Persistence", "Vaultex.Persistence\Vaultex.Persistence.csproj", "{A9CFC2F1-85D8-43F9-AFDF-710D7B0F02F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaultex.Shared", "Vaultex.Shared\Vaultex.Shared.csproj", "{1D49E568-61E7-42C7-B191-93B442382373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaultex.Infrastructure", "Vaultex.Infrastructure\Vaultex.Infrastructure.csproj", "{79F4F540-A490-4728-AAAB-ADD8503DE35F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D619C4BC-7B0C-4CDC-86DF-D2A8FBCEE164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D619C4BC-7B0C-4CDC-86DF-D2A8FBCEE164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D619C4BC-7B0C-4CDC-86DF-D2A8FBCEE164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D619C4BC-7B0C-4CDC-86DF-D2A8FBCEE164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E863D28E-C257-4DA5-961E-FC191F28F808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E863D28E-C257-4DA5-961E-FC191F28F808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E863D28E-C257-4DA5-961E-FC191F28F808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E863D28E-C257-4DA5-961E-FC191F28F808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987A95E1-717A-4F10-8E19-EA5A8E884BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987A95E1-717A-4F10-8E19-EA5A8E884BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987A95E1-717A-4F10-8E19-EA5A8E884BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987A95E1-717A-4F10-8E19-EA5A8E884BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CFC2F1-85D8-43F9-AFDF-710D7B0F02F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CFC2F1-85D8-43F9-AFDF-710D7B0F02F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CFC2F1-85D8-43F9-AFDF-710D7B0F02F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CFC2F1-85D8-43F9-AFDF-710D7B0F02F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D49E568-61E7-42C7-B191-93B442382373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D49E568-61E7-42C7-B191-93B442382373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D49E568-61E7-42C7-B191-93B442382373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D49E568-61E7-42C7-B191-93B442382373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F4F540-A490-4728-AAAB-ADD8503DE35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F4F540-A490-4728-AAAB-ADD8503DE35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F4F540-A490-4728-AAAB-ADD8503DE35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F4F540-A490-4728-AAAB-ADD8503DE35F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE6D5172-1235-4A09-B764-CE4664EA03C2}
+	EndGlobalSection
+EndGlobal

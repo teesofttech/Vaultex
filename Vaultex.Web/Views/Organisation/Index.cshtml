@@ -1,0 +1,85 @@
+﻿@using Vaultex.Shared;
+@model Result<List<Vaultex.Application.DTOs.Organisation.Response.GetOrganisationResponse>>
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/lib/datatables/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+<div class="text-center">
+    <h1 class="display-4">Organisation Section</h1>
+
+    <br />
+    <form asp-action="Index" asp-controller="Organisation" enctype="multipart/form-data">
+
+        File: <input type="file" name="formFile" id="formFile" />
+
+        <input type="submit" value="Submit" />
+    </form>
+
+
+
+    <hr/>
+
+    <br/>
+    <br />
+
+
+    <div class="container">
+        <h2>List of Organisation</h2>
+        <br/>
+        <div class="table-responsive">
+            <table id="orgDatatable" class="table table-striped table-bordered dt-responsive nowrap" width="100%" cellspacing="0">
+                >
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Organisation Name</th>
+                        <th>Organisation Number</th>
+                        <th>Address Line 1</th>
+                        <th>Address Line 2</th>
+                        <th>Address Line 3</th>
+                        <th>Address Line 4</th>
+                        <th>Town</th>
+                        <th>Postcode</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Data.Any())
+                    {
+                        int i = 0;
+                        foreach (var item in Model.Data)
+                        {
+                            i++;
+                            <tr>
+                                <td>@i</td>
+                                <td>@item.OrganisationName</td>
+                                <td>@item.OrganisationNumber</td>
+                                <td>@item.AddressLine1</td>
+                                <td>@item.AddressLine2</td>
+                                <td>@item.AddressLine3</td>
+                                <td>@item.AddressLine4</td>
+                                <td>@item.Town</td>
+                                <td>@item.Postcode</td>
+                            </tr>
+                        }
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+    {
+    <script src="~/lib/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="~/lib/datatables/js/dataTables.bootstrap4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#orgDatatable").DataTable({
+            });
+        });
+    </script>
+
+}
